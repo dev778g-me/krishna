@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, Video } from "lucide-react";
 
 export const DATA = {
   name: "Krishna.sh executing...",
@@ -161,6 +161,7 @@ export const DATA = {
         
       ],
       image: "https://ik.imagekit.io/4cdx68esl/Portfolio/snap.png?updatedAt=1750431735638",
+      video : ""
       
     },
     {
@@ -189,6 +190,7 @@ export const DATA = {
         },
       ],
       image: "https://ik.imagekit.io/4cdx68esl/Portfolio/port.png?updatedAt=1750433347664",
+         video : ""
      
     },
     {
@@ -214,6 +216,7 @@ export const DATA = {
         },
       ],
       image: "https://ik.imagekit.io/4cdx68esl/Portfolio/g.png?updatedAt=1750433683799",
+        video : ""
       
     },
   ],
@@ -603,3 +606,4 @@ export const DATA = {
     },
   ],
 } as const;
+//akufpiaibgeai
