@@ -123,7 +123,7 @@ export const DATA = {
         },
         {
           type: "Beta",
-          href: "https://drive.google.com/file/d/13GcwUoUFOt9AaavOW5QWxVVhA-4sHzIO/view?usp=drive_link",
+          href: "https://drive.google.com/file/d/11AxGZXvRKjStSu1kIpU53Msh_bhA8tHq/view?usp=sharing",
           icon: <Icons.googleDrive className="size-3" />,
         },
         
