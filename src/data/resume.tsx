@@ -97,7 +97,7 @@ export const DATA = {
   projects: [
     {
       title: "Habity",
-      href: "https://chatcollect.com",
+      href: "habity.framer.website",
       dates: "June 2025",
       active: true,
       description:
@@ -135,7 +135,7 @@ export const DATA = {
     {
       title: "SnapLog",
       href: "https://magicui.design",
-      dates: "April 2025",
+      dates: "March 2025",
       active: true,
       description:
         "SnapLog is an AI-powered screenshot manager that helps you organize, analyze, and make the most of your screenshots.",
@@ -167,7 +167,7 @@ export const DATA = {
     {
       title: "Timeflow",
       href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      dates: "March 2025",
       active: true,
       description:
         "Time Flow is a home screen widget that shows the real-time progress of your day, week, month, and year using progress bars and percentages helping you stay aware and productive.",
@@ -196,7 +196,7 @@ export const DATA = {
     {
       title: "Yappify (more like x clone)",
       href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      dates: "September 2024",
       active: true,
       description:
         "Yappify is a social media app built with Flutter and Firebase that allows users to share posts, interact with others, and build their network. Users can post, delete, like, comment, follow, and explore other users' content seamlessly.",
