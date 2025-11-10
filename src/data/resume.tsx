@@ -101,7 +101,7 @@ export const DATA = {
       dates: "June 2025",
       active: true,
       description:
-        "Go for better Habits with Habity track goals with ease",
+        "Go for better Habits with Habity It helps users build better habits with heatmaps, home screen widgets, and timely notifications for consistent progress.",
       technologies: [
         "Kotlin",
         "Jetpack Compose",
@@ -111,11 +111,11 @@ export const DATA = {
         "Kotlin Coroutines",
       ],
       links: [
-        {
-          type: "Playstore",
-          href: "https://play.google.com/store/apps?hl=en",
-          icon: <Icons.playstore className="size-3" />,
-        },
+        // {
+        //   type: "Playstore",
+        //   href: "https://play.google.com/store/apps?hl=en",
+        //   icon: <Icons.playstore className="size-3" />,
+        // },
         {
           type: "Website",
           href: "https://habity.framer.website/",
@@ -133,8 +133,37 @@ export const DATA = {
         "",
     },
     {
+      title: "Timeflow",
+      dates: "October 2025",
+      active: true,
+      description:
+        "TimeFlow lets you add tasks and events, set reminders, and track your day, week, month, and year progress through a clean, insightful interface and widgets.",
+      technologies: [
+        "Kotlin",
+        "Jetpack Compose",
+        "Kotlin Coroutines",
+        "Jetpack Glance",
+        "Room",
+        "Datastore Preferences"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/dev778g-me/TimeFlow",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Release",
+          href: "https://github.com/dev778g-me/TimeFlow/releases/latest",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://ik.imagekit.io/4cdx68esl/Portfolio/device-mockup_1.5x_postspark_2025-11-10_11-41-08~2.png?updatedAt=1762755408172",
+         video : ""
+     
+    },
+    {
       title: "SnapLog",
-      href: "https://magicui.design",
       dates: "March 2025",
       active: true,
       description:
@@ -164,38 +193,9 @@ export const DATA = {
       video : ""
       
     },
-    {
-      title: "Timeflow",
-      href: "https://llm.report",
-      dates: "March 2025",
-      active: true,
-      description:
-        "Time Flow is a home screen widget that shows the real-time progress of your day, week, month, and year using progress bars and percentages helping you stay aware and productive.",
-      technologies: [
-        "Kotlin",
-        "Jetpack Compose",
-        "Jetpack Glance",
-        "Calender API",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/dev778g-me/TimeFlow",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Release",
-          href: "https://github.com/dev778g-me/TimeFlow/releases/tag/v1.1",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://ik.imagekit.io/4cdx68esl/Portfolio/port.png?updatedAt=1750433347664",
-         video : ""
-     
-    },
+    
     {
       title: "Yappify (more like x clone)",
-      href: "https://automatic.chat",
       dates: "September 2024",
       active: true,
       description:
