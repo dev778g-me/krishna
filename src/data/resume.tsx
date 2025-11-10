@@ -134,7 +134,7 @@ export const DATA = {
     },
     {
       title: "Timeflow",
-      herf :"",
+      href :"",
       dates: "October 2025",
       active: true,
       description:
@@ -165,7 +165,7 @@ export const DATA = {
     },
     {
       title: "SnapLog",
-      herf :"",
+      href :"",
       dates: "March 2025",
       active: true,
       description:
@@ -198,7 +198,7 @@ export const DATA = {
     
     {
       title: "Yappify (more like x clone)",
-      herf :"",
+      href :"",
       dates: "September 2024",
       active: true,
       description:
