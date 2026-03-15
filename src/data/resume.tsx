@@ -4,13 +4,14 @@ import { HomeIcon, NotebookIcon, Video } from "lucide-react";
 export const DATA = {
   name: "Krishna.sh executing...",
   initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
+  url: "https://krishna-beta.vercel.app/",
+  location: "unknown",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: "Android/Flutter dev turning ideas into slick, usable apps.",
-  summary: "I got into coding in September 2024, starting with Flutter. At first, I was just experimenting and learning as I went. The apps I built early on didn’t go far, but they gave me the confidence to keep going. Now, I’m focused on Android development with Kotlin and working on apps that solve real problems and actually make people’s lives a little easier.",
+  summary:
+    "I got into coding in September 2024, starting with Flutter. At first, I was just experimenting and learning as I went. The apps I built early on didn’t go far, but they gave me the confidence to keep going. Now, I’m focused on Android development with Kotlin and working on apps that solve real problems and actually make people’s lives a little easier.",
   avatarUrl: "/me.jpg",
-  
+
   skills: [
     "Kotlin",
     "Jetpack Compose",
@@ -40,7 +41,7 @@ export const DATA = {
 
         navbar: true,
       },
-  
+
       X: {
         name: "X",
         url: "https://x.com/Dev778g",
@@ -48,7 +49,7 @@ export const DATA = {
 
         navbar: true,
       },
-      
+
       email: {
         name: "Send Email",
         url: "#",
@@ -58,7 +59,6 @@ export const DATA = {
       },
     },
   },
-
 
   education: [
     {
@@ -111,30 +111,24 @@ export const DATA = {
         "Kotlin Coroutines",
       ],
       links: [
-        // {
-        //   type: "Playstore",
-        //   href: "https://play.google.com/store/apps?hl=en",
-        //   icon: <Icons.playstore className="size-3" />,
-        // },
+        {
+          type: "Playstore",
+          href: "https://play.google.com/store/apps/details?id=com.dev.habity&pcampaignid=web_share",
+          icon: <Icons.playstore className="size-3" />,
+        },
         {
           type: "Website",
           href: "https://habity.framer.website/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Beta",
-          href: "https://drive.google.com/file/d/1Q6iLcYdzA-xvyy2kgXIr-fy7WXwKUDD2/view?usp=sharing",
-          icon: <Icons.googleDrive className="size-3" />,
-        },
-        
       ],
-      image: "https://ik.imagekit.io/4cdx68esl/Portfolio/Screenshot%20From%202025-06-20%2018-31-55.png?updatedAt=1750426369757",
-      video:
-        "",
+      image:
+        "https://ik.imagekit.io/4cdx68esl/Portfolio/Screenshot%20From%202025-06-20%2018-31-55.png?updatedAt=1750426369757",
+      video: "",
     },
     {
       title: "Timeflow",
-      href :"",
+      href: "",
       dates: "October 2025",
       active: true,
       description:
@@ -145,9 +139,14 @@ export const DATA = {
         "Kotlin Coroutines",
         "Jetpack Glance",
         "Room",
-        "Datastore Preferences"
+        "Datastore Preferences",
       ],
       links: [
+        {
+          type: "Playstore",
+          href: "https://play.google.com/store/apps/details?id=com.dev.timeflow&pcampaignid=web_share",
+          icon: <Icons.playstore className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/dev778g-me/TimeFlow",
@@ -159,13 +158,13 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/4cdx68esl/Portfolio/device-mockup_1.5x_postspark_2025-11-10_11-41-08~2.png?updatedAt=1762755408172",
-         video : ""
-     
+      image:
+        "https://ik.imagekit.io/4cdx68esl/Portfolio/device-mockup_1.5x_postspark_2025-11-10_11-41-08~2.png?updatedAt=1762755408172",
+      video: "",
     },
     {
       title: "SnapLog",
-      href :"",
+      href: "",
       dates: "March 2025",
       active: true,
       description:
@@ -189,16 +188,15 @@ export const DATA = {
           href: "https://github.com/dev778g-me/SnapLog/releases/tag/Snaplog.v1.0.inbuiltocr",
           icon: <Icons.github className="size-3" />,
         },
-        
       ],
-      image: "https://ik.imagekit.io/4cdx68esl/Portfolio/snap.png?updatedAt=1750431735638",
-      video : ""
-      
+      image:
+        "https://ik.imagekit.io/4cdx68esl/Portfolio/snap.png?updatedAt=1750431735638",
+      video: "",
     },
-    
+
     {
       title: "Yappify (more like x clone)",
-      href :"",
+      href: "",
       dates: "September 2024",
       active: true,
       description:
@@ -218,9 +216,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/4cdx68esl/Portfolio/g.png?updatedAt=1750433683799",
-        video : ""
-      
+      image:
+        "https://ik.imagekit.io/4cdx68esl/Portfolio/g.png?updatedAt=1750433683799",
+      video: "",
     },
   ],
   hackathons: [
